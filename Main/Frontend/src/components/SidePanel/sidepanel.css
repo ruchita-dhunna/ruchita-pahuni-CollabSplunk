@@ -1,0 +1,46 @@
+@media (max-width: 1220px) {
+    .sidebar-text {
+        font-size: medium !important;
+    }
+}
+
+@media (max-width: 1120px) {
+    .sidebar-text {
+        font-size: small !important;
+    }
+}
+
+.panel-item a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: .5rem 1rem;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.side-panel-item {
+    color: white !important
+}
+
+.sidebar {
+    /* width: 100% !important; */
+    width:16% !important;
+}
+
+
+/* .sidebar-item{
+    width: inherit;
+} */
+
+.side-panel div {
+    background-color: rgba(51, 51, 51, 0.8);
+    /* background-color: #808080; */
+    position: fixed;
+    height: 100vh;
+    top: 52px;
+    max-width: 16%;
+}

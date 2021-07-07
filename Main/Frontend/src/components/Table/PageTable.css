@@ -1,0 +1,38 @@
+.your-custom-styles {
+    font-size: 15px;
+    /* box-shadow: 4px 4px 8px 0px grey; */
+    padding: 2em;
+    /* margin-bottom:45px;  */
+    overflow: auto;
+  }
+
+  .your-custom-styles div:nth-child(1)::before{
+      content: unset;
+  }
+  .your-custom-styles div:nth-child(1)::after{
+      content: unset;
+  }
+
+.mdb-datatable-filter input{
+    font-size: 15px;
+}
+
+
+@media (max-width: 750px){
+    .your-custom-styles{
+        font-size: x-small !important;
+    }
+}
+.page-table-body{
+    box-shadow: 2px 4px 11px 0px grey;
+    border-radius: 2%;
+    padding: 5%;
+    background-color: white !important;
+}
+.file-export{
+    
+    padding-top: 2%;
+}
+.file-export-text{
+    color:black;
+}
