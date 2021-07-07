@@ -59,6 +59,23 @@ const LineChart = (props) => {
     maintainAspectRatio: true,
     responsive: true,
     alignToPixels: true,
+    plugins: {
+      legend: {
+        // display:true,
+        padding:10,
+        position: "bottom",
+      },
+      title: {
+        
+        display: true,
+        text: 'Distribution of count according to Comments',
+        font:{
+          size:16,
+          weight:'bold',
+        },
+        // align:'left'
+      }
+    },
     scales: {
       x: {
         ticks: {

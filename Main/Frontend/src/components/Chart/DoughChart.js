@@ -61,6 +61,21 @@ const DoughChart = (props) => {
         position: "right",
       },
     },
+    plugins: {
+      legend: {
+        // display:true,
+        position: "right",
+      },
+      title: {
+        display: true,
+        text: 'Compliance Reach',
+        font:{
+          size:16,
+          weight:'bold',
+        },
+        align:'left'
+      }
+    },
     radius: '90%',
     // innerRadius:95,
   };
